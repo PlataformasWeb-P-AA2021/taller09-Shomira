@@ -34,6 +34,7 @@ class Estudiante(models.Model):
 class Modulo(models.Model):
     """
     """
+    
     opciones_modulo = (
         ('1', 'Primero'),
         ('2', 'Segundo'),
